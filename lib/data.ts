@@ -30,9 +30,8 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Sistem Informasi Logistik CGN",
-    description:
-      "The CGN Logistics Information System is a digital platform that integrates inventory management, inventory control, delivery monitoring, and logistics performance analysis to maximize the efficiency of CGN's logistics operations. The system also provides high security and an intuitive user interface.",
+    title: "tes",
+    description: "tes.",
     screenshots: [
       "images/project/cekresi/1.png",
       "images/project/cekresi/3.png",
@@ -41,14 +40,7 @@ export const projectsData = [
       "images/project/cekresi/6.png",
     ],
     image: "images/project/cekresi/1.png",
-    tech: [
-      "/images/icon/bootstrap.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
-      "/images/icon/jquery-vertical.svg",
-      "/images/icon/mysql.svg",
-    ],
-    demoUrl: null,
-    githubUrl: null,
+    demoUrl: "https://www.youtube.com/watch?v=a8sNSTbsYI0",
     features: [
       "Inventory Management: Tracks, organizes, and optimizes stock levels for efficient resource allocation.",
       "Inventory Control: Empowers precise oversight with real-time updates on stock movements for accurate decision-making.",
@@ -77,53 +69,55 @@ export const skillsData = [
 
 export const skilss = [
   {
+    id: 1,
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/kotlin-colored.svg",
+  },
+  {
     id: 2,
     imgUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg",
   },
   {
     id: 3,
-    imgUrl: "/images/icon/bootstrap.svg",
-  },
-  {
-    id: 8,
-    imgUrl: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg",
   },
   {
     id: 4,
-    imgUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg",
   },
   {
     id: 5,
-    imgUrl: "/images/icon/codeigniter.svg",
-  },
-  {
-    id: 7,
-    imgUrl: "/images/icon/mysql.svg",
-  },
-
-  {
-    id: 9,
-    imgUrl: "/images/icon/typescript.svg",
-  },
-  {
-    id: 10,
-    imgUrl: "/images/icon/javascript.svg",
-  },
-  {
-    id: 1,
-    imgUrl: "/images/icon/jquery-vertical.svg",
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg",
   },
   {
     id: 6,
     imgUrl:
       "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
   },
-  // {
-  //   id: 10,
-  //   imgUrl:
-  //     "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
-  // },
+  {
+    id: 7,
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg",
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg",
+  },
+  {
+    id: 9,
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg",
+  },
+  {
+    id: 10,
+    imgUrl:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg",
+  },
 ] as const;
 
 export const experiencesData = [
@@ -131,7 +125,7 @@ export const experiencesData = [
     title: "PT TELEMATIKA ENERGI NUSANTARA",
     location: "Mobile Developer - Full-time",
     description:
-      "● Developed and maintained the comprehensive finance ecosystem, ship unloading container, including the registration portal, user dashboard, and payment gateway, tracking system. (Flutter, GCP , Firebase)\n ● Overhauled the frontend incident management process by integrating Firebase Crashlytics alerts with the app, implementing SOPs for issue resolution, resulting in improved response times, enhanced system reliability. (Firebase Crashlytics & Analytics)\n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability. (Flutter Linter)\n ● Implemented Machine Learning system to detect vehicle license plates and read the numbers. (TensorFlow Lite)",
+      "● Developed and maintained the comprehensive finance ecosystem, ship unloading container, including the registration portal, user dashboard, and payment gateway, tracking system. (Flutter, GCP , Firebase)\n ● Overhauled the frontend incident management process by integrating Firebase Crashlytics alerts with the app, implementing SOPs for issue resolution, resulting in improved response times, enhanced system reliability. (Firebase Crashlytics & Analytics)\n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability. (Flutter Linter)\n ●  Implemented Machine Learning system to detect vehicle license plates and read the numbers. (TensorFlow Lite)",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2023 – Present",
   },

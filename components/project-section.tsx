@@ -1,12 +1,12 @@
 "use client";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
 import { projectsData } from "@/lib/data";
-import BurstBload2 from "./burst-bload-2";
 import { useSectionInView } from "@/lib/hooks";
-import { useInView } from "react-intersection-observer";
-import { FaGithub, FaLink, FaArrowDown } from "react-icons/fa";
+import { motion } from "framer-motion";
+import React, { useState } from "react";
 import { BiLinkExternal } from "react-icons/bi";
+import { FaArrowDown } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+import BurstBload2 from "./burst-bload-2";
 import SectionHeading from "./section-heading";
 
 interface Project {
@@ -18,7 +18,6 @@ interface Project {
   features: string[];
   languages: string[];
   demoUrl?: string;
-  githubUrl?: string;
 }
 
 const ProjectSection: React.FC = () => {
@@ -64,7 +63,7 @@ const ProjectSection: React.FC = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 20 }}
-      className="py-12 px-10 scroll-mt-28 mb-28"
+      className="py-12 px-10 scroll-mt-28 mb-28 text-center"
       ref={ref}
       style={{ padding: "0 8%" }}
     >
@@ -73,6 +72,7 @@ const ProjectSection: React.FC = () => {
           <SectionHeading>🚀 Projects</SectionHeading>
           <BurstBload2 />
         </div>
+        <p>I've worked on a variety of projects.</p>
 
         <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {displayedProjects.map((project, index) => (
@@ -103,37 +103,20 @@ const ProjectSection: React.FC = () => {
                 </p>
                 <div className="flex justify-between items-end">
                   <div className="flex space-x-2">
-                    {project.tech.map((tech, techIndex) => (
-                      <img
-                        key={techIndex}
-                        src={tech}
-                        alt={`Tech ${techIndex}`}
-                        className="h-6"
-                        width="24"
-                        height="24"
-                      />
-                    ))}
-                  </div>
-                  <div className="flex space-x-2">
                     {project.demoUrl && (
-                      <a
-                        href={project.demoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`text-gray-600 dark:text-gray-200 hover:underline text-xl`}
-                      >
-                        <BiLinkExternal />
-                      </a>
-                    )}
-                    {project.githubUrl && (
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`text-gray-600 dark:text-gray-200 dark:hover:text-gray-100 hover:text-gray-700 text-xl`}
-                      >
-                        <FaGithub />
-                      </a>
+                      <>
+                        <p className="text-gray-600 dark:text-gray-200 text-sm">
+                          Watch Demo
+                        </p>
+                        <a
+                          href={project.demoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`text-gray-600 dark:text-gray-200 hover:underline text-xl`}
+                        >
+                          <BiLinkExternal />
+                        </a>
+                      </>
                     )}
                   </div>
                 </div>
@@ -181,7 +164,7 @@ const ProjectSection: React.FC = () => {
                 <h3 className="text-lg font-semibold mb-2 dark:text-white">
                   Features I Worked On:
                 </h3>
-                <ul className="list-disc list-inside">
+                <ul className="list-disc list-inside text-start">
                   {selectedProject.features.map((feature, index) => (
                     <li
                       key={index}

@@ -10,9 +10,9 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const baseUrlMeta = `${new URL("https://bayumaulanaikhsan.my.id/")}`;
+const baseUrlMeta = `${new URL("https://afivdickyefendy.vercel.app/")}`;
 export const metadata = {
-  metadataBase: new URL("https://bayumaulanaikhsan.my.id/"),
+  metadataBase: new URL("https://afivdickyefendy.vercel.app/"),
   title: "Afiv Dicky Efendy | Portfolio",
   description:
     "Afiv Dicky Efendy is a mobile developer with 3 years of experience.",

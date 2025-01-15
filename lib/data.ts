@@ -30,41 +30,84 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "tes",
-    description: "tes.",
-    screenshots: [
-      "images/project/cekresi/1.png",
-      "images/project/cekresi/3.png",
-      "images/project/cekresi/4.png",
-      "images/project/cekresi/2.png",
-      "images/project/cekresi/6.png",
-    ],
-    image: "images/project/cekresi/1.png",
-    demoUrl: "https://www.youtube.com/watch?v=a8sNSTbsYI0",
-    features: [
-      "Inventory Management: Tracks, organizes, and optimizes stock levels for efficient resource allocation.",
-      "Inventory Control: Empowers precise oversight with real-time updates on stock movements for accurate decision-making.",
-      "Delivery Monitoring: Offers real-time visibility into logistics, enabling proactive responses to ensure timely deliveries.",
-      "Performance Analysis: Utilizes powerful analytics to gain insights, identify improvements, and enhance operational efficiency.",
-    ],
-    languages: ["Laravel 10", "Bootstrap 5", "MYSQL 8.0", "Jquery"],
+    title: "Google Play Developer Page",
+    description:
+      "Our apps combine intuitive design with powerful functionality. We prioritize user privacy and follow best development practices to ensure secure and reliable performance. Join and discover how our apps can enhance your productivity and make your daily life easier.",
+    screenshots: ["images/project/google_play/google_play_store_page.png"],
+    image: "images/project/google_play/google_play_store_page.png",
+    demoUrl: null,
+    features: ["AR technology", "3D model", "Machine Learning"],
+    languages: ["Google Play Store"],
   },
-] as const;
-
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "PHP",
-  "JavaScript",
-  "TypeScript",
-  "Tailwind",
-  "Bootstrap",
-  "Codeigneter",
-  "Laravel",
-  "React",
-  "MYSQL",
-  "Git",
-  // "Framer Motion",
+  {
+    title: "HIONEPEDIA",
+    description:
+      "Hionepedia is a rare animal learning application specifically for elementary school children using Augmented Reality technology.",
+    screenshots: ["images/project/hionepedia/hionepedia_detail.png"],
+    image: "images/project/hionepedia/hionepedia_thumbnail.png",
+    demoUrl: null,
+    features: [
+      "Using Provider State Management",
+      "Using MVVM Design Pattern",
+      "Using Hive Storage",
+      "Features 3D Models",
+      "Features Augmented Reality",
+      "Features Animal Sounds",
+    ],
+    languages: ["Flutter", "Codeigneter 4"],
+  },
+  {
+    title: "LINKMEUP",
+    description:
+      "LinkMeUp is an online video meeting application that offers unlimited time.",
+    screenshots: ["images/project/linkmeup/linkmeup_detail.png"],
+    image: "images/project/linkmeup/linkmeup_thumbnail.png",
+    demoUrl: null,
+    features: ["Firebase Auth", "Firebase Storage", "Cloud Firestore"],
+    languages: ["Flutter", "Firebase"],
+  },
+  {
+    title: "MAAWNONTON",
+    description: "Project Movie menggunakan API dari TMDB",
+    screenshots: ["images/project/maawnonton/maawnonton_detail.png"],
+    image: "images/project/maawnonton/maawnonton_thumbnail.png",
+    demoUrl: null,
+    features: [
+      "Implementing Provider state management",
+      "Implementing MVVM design pattern",
+      "Includes search feature",
+    ],
+    languages: ["Flutter"],
+  },
+  {
+    title: "CONVEYENCE",
+    description: "Aplikasi Chatting",
+    screenshots: [
+      "images/project/conveyence/conveyence_1.png",
+      "images/project/conveyence/conveyence_2.gif",
+    ],
+    image: "images/project/conveyence/conveyence_thumbnail.png",
+    demoUrl: null,
+    features: [
+      "Using Getx State Management",
+      "Using Getx Design Pattern",
+      "Using GetStorage",
+      "Features chat functionality",
+      "Firebase Auth",
+      "Firebase Storage",
+      "Cloud Firestore",
+    ],
+    languages: ["Flutter", "Firebase"],
+  },
+  {
+    title: "TIKTOK UI",
+    description: "Social Media App Slicing UI",
+    screenshots: ["images/project/tiktok_ui/tiktok_ui_detail.png"],
+    image: "images/project/tiktok_ui/tiktok_ui_thumbnail.png",
+    demoUrl: null,
+    features: ["Slicing ui from figma"],
+    languages: ["Flutter"],
+  },
 ] as const;
 
 export const skilss = [

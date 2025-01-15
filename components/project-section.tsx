@@ -222,7 +222,7 @@ const ProjectSection: React.FC = () => {
               >
                 <span className="text-xl">&times;</span>
               </button>
-              <div className="w-full h-[600px] mb-4 overflow-hidden">
+              <div className="w-full h-[600px] mb-4 overflow-hidden flex justify-center">
                 <img
                   src={zoomedImage}
                   alt="Zoomed Screenshot"

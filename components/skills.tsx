@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
-import SectionHeading from "./section-heading";
-import { skillsData, skilss } from "@/lib/data";
+import { skilss } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useState } from "react";
 import BurstBload2 from "./burst-bload-2";
+import SectionHeading from "./section-heading";
 
 const fadeInAnimationVariants = {
   initial: {

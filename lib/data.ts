@@ -40,6 +40,38 @@ export const projectsData = [
     languages: ["Google Play Store"],
   },
   {
+    title: "CATS",
+    description:
+      "A comprehensive app to assist debt collectors in managing their daily collection activities. The app integrates real-time location tracking, chatting features and machine learning (object detection and text recognition) to streamline the debt collection process.",
+    screenshots: [
+      "images/project/cats/cats_0.png",
+      "images/project/cats/cats_1.png",
+      "images/project/cats/cats_2.png",
+      "images/project/cats/cats_3.png",
+      "images/project/cats/cats_4.png",
+      "images/project/cats/cats_5.png",
+      "images/project/cats/cats_6.png",
+      "images/project/cats/cats_7.png",
+    ],
+    image: "images/project/cats/cats_thumbnail.png",
+    demoUrl: null,
+    features: [
+      "Using Getx State Management",
+      "Using MVVM Design Pattern",
+      "Features Google Maps Location",
+      "Features Chat functionality",
+      "Features Machine Learning",
+      "Implemented Security with Appsuit",
+    ],
+    languages: [
+      "Flutter",
+      "Firebase",
+      "TFlite",
+      "Google Cloud Platform",
+      "Appsuit Security",
+    ],
+  },
+  {
     title: "HIONEPEDIA",
     description:
       "Hionepedia is a rare animal learning application specifically for elementary school children using Augmented Reality technology.",
@@ -68,7 +100,7 @@ export const projectsData = [
   },
   {
     title: "MAAWNONTON",
-    description: "Project Movie menggunakan API dari TMDB",
+    description: "Maawnonton is an app to search for movies and tv shows",
     screenshots: ["images/project/maawnonton/maawnonton_detail.png"],
     image: "images/project/maawnonton/maawnonton_thumbnail.png",
     demoUrl: null,
@@ -81,7 +113,7 @@ export const projectsData = [
   },
   {
     title: "CONVEYENCE",
-    description: "Aplikasi Chatting",
+    description: "Simple chatting application with firebase",
     screenshots: [
       "images/project/conveyence/conveyence_1.png",
       "images/project/conveyence/conveyence_2.gif",
@@ -165,26 +197,34 @@ export const skilss = [
 
 export const experiencesData = [
   {
+    title: "IDCAMP SCHOLARSHIP 2024",
+    location: "Android Developer - Scholarship ",
+    description:
+      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Developed an app with native (kotlin) with xml and jetpack compose ui. \n ● Implemented front-end engineering best practices and patterns and presented them to mentors.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2024 – Present",
+  },
+  {
     title: "PT TELEMATIKA ENERGI NUSANTARA",
     location: "Mobile Developer - Full-time",
     description:
-      "● Developed and maintained the comprehensive finance ecosystem, ship unloading container, including the registration portal, user dashboard, and payment gateway, tracking system. (Flutter, GCP , Firebase)\n ● Overhauled the frontend incident management process by integrating Firebase Crashlytics alerts with the app, implementing SOPs for issue resolution, resulting in improved response times, enhanced system reliability. (Firebase Crashlytics & Analytics)\n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability. (Flutter Linter)\n ●  Implemented Machine Learning system to detect vehicle license plates and read the numbers. (TensorFlow Lite)",
+      "● Developed and maintained the comprehensive finance ecosystem, ship unloading container, including the registration portal, user dashboard, and payment gateway, tracking system. \n ● Overhauled the frontend incident management process by integrating Firebase Crashlytics alerts with the app, implementing SOPs for issue resolution, resulting in improved response times, enhanced system reliability. \n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability. \n ●  Implemented Machine Learning system to detect vehicle license plates and read the numbers.",
     icon: React.createElement(CgWorkAlt),
-    date: "Oct 2023 – Present",
+    date: "Oct 2023 – Dec 2024",
   },
   {
     title: "PROGRAM KAMPUS MERDEKA (MBKM)",
     location: "Mobile Developer - Student Activity",
     description:
-      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. (GitHub,CI/CD, Unit Test) \n ● Ensure the technical feasibility of UI/UX design and define tasks to delegate to other engineers. \n ● Developed a e-commerce with Getx State Management to improve performance and memory leaks (Flutter, Getx State Management) \n ● Implemented front-end engineering best practices and patterns and presented them to other engineers. \n ● Configure a reporting and monitoring system for the front end to monitor and improve the website quality. (Firebase Analytics) \n ● Created and set up a linter and formatter for the existing frontend codebase to improve consistency. (Flutter Linter, Prettier)",
+      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Ensure the technical feasibility of UI/UX design and define tasks to delegate to others. \n ● Developed a e-commerce with Getx State Management to improve performance and memory leaks. \n ● Implemented front-end engineering best practices and patterns and presented them to mentors. \n ● Configure a reporting and monitoring system for the front end to monitor and improve the website quality. \n ● Created and set up a linter and formatter for the existing frontend codebase to improve consistency.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2022 – Dec 2022",
   },
   {
     title: "IDCAMP SCHOLARSHIP 2022",
-    location: "Mobile Developer - Scholarship",
+    location: "Multiplatform App Developer - Scholarship",
     description:
-      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. (GitHub,CI/CD, Unit Test) \n ● Developed an app with BLoc State Management to improve performance and memory leaks. (Flutter, BLoC State Management) \n ● Implemented front-end engineering best practices and patterns and presented them to other engineers.",
+      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Developed an app with BLoc State Management to improve performance and memory leaks. \n ● Implemented front-end engineering best practices and patterns and presented them to mentors.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2022 – Nov 2022",
   },
@@ -192,9 +232,9 @@ export const experiencesData = [
     title: "TEKNOLOKA",
     location: "Mobile Developer - Part-time",
     description:
-      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. (GitHub,CI/CD, Unit Test) \n ● Developed and maintained the finance ecosystem and education ecosystem, including the registration portal, user dashboard, and payment gateway, tracking system. (Flutter, GCP , Firebase) \n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability. (Flutter Linter)",
+      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Developed and maintained the finance ecosystem and education ecosystem, including the registration portal, user dashboard, and payment gateway, tracking system. \n ● Implemented and enforced standardized coding styles across the frontend team, improving code readability and maintainability.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2022 – Aug 2022",
+    date: "May 2022 – Dec 2022",
   },
   {
     title: "PT BLITARIS GLOBAL TEKNOLOGI",

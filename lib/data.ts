@@ -216,7 +216,7 @@ export const experiencesData = [
     title: "PROGRAM KAMPUS MERDEKA (MBKM)",
     location: "Mobile Developer - Student Activity",
     description:
-      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Ensure the technical feasibility of UI/UX design and define tasks to delegate to others. \n ● Developed a e-commerce with Getx State Management to improve performance and memory leaks. \n ● Implemented front-end engineering best practices and patterns and presented them to mentors. \n ● Configure a reporting and monitoring system for the front end to monitor and improve the website quality. \n ● Created and set up a linter and formatter for the existing frontend codebase to improve consistency.",
+      "● Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features. \n ● Ensure the technical feasibility of UI/UX design and define tasks to delegate to others. \n ● Developed a e-commerce with Getx State Management to improve performance and memory leaks. \n ● Implemented front-end engineering best practices and patterns and presented them to mentors. \n ● Configure a reporting and monitoring system for the front end to monitor and improve the app quality. \n ● Created and set up a linter and formatter for the existing frontend codebase to improve consistency.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2022 – Dec 2022",
   },
